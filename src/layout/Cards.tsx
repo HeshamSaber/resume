@@ -1,53 +1,26 @@
-import { Briefcase, FileCog, Presentation } from "lucide-react"
+import { Briefcase, FileCog, Presentation } from "lucide-react";
 
-function Cards(){
-    return(
-        <section
-  className="bg-[#B66D68] flex flex-col justify-center items-center gap-4 md:flex-row max-w-screen-lg mx-auto opacity-80 p-6"
->
-  <div
-    className="max-w-sm bg-[#f4c48e] border border-gray-200 rounded-lg shadow min-w-[300px] flex flex-row flex-grow"
-  >
-    <div className="p-5 w-full">
-      <a href="/experience" className="routeLink">
-        <h5
-          className="flex justify-center items-center mb-2 text-2xl font-bold tracking-tight text-gray-900 " 
-        >
-         <Briefcase /> &nbsp; Work Experience 
-        </h5>
-      </a>
-    </div>
-  </div>
-  <div
-  className="max-w-sm bg-[#f4c48e] border border-gray-200 rounded-lg shadow min-w-[300px] flex flex-row flex-grow"
-  >
-    <div className="p-5 w-full">
-      <a href="/SkillsAndTools" className="routeLink">
-        <h5
-        className="flex justify-center items-center mb-2 text-2xl font-bold tracking-tight text-gray-900 " 
-        >
-        <FileCog /> &nbsp; Tools and Skills
-        </h5>
-      </a>
-    </div>
-  </div>
-  <div
-  className="max-w-sm bg-[#f4c48e] border border-gray-200 rounded-lg shadow min-w-[300px] flex flex-row flex-grow"
-  >
-    <div className="p-5 w-full">
-      <a href="/Projects" className="routeLink">
-        <h5
-        className="flex justify-center items-center mb-2 text-2xl font-bold tracking-tight text-gray-900 " 
-        >
-        <Presentation />
-        &nbsp; Projects
-        </h5>
-      </a>
-    </div>
-  </div>
-</section>
-        
-    )
+function Cards() {
+  return (
+    <section className="flex flex-col justify-center gap-5 my-4 items-center md:flex-row max-w-screen-lg opacity-80 shadow-2xl bg-transparent">
+      <div className="max-w-sm w-full bg-[#546b6f] hover:scale-110 border border-gray-500 rounded-xl shadow-md shadow-[#679ea8] min-w-[300px] flex flex-row flex-1 flex-wrap justify-center h-12">
+        <a href="/experience" className="flex justify-center items-center  text-2xl font-bold text-[#7cccd8] hover:text-[#67d4b0] ">
+          <Briefcase /> &nbsp; Work Experience
+        </a>
+      </div>
+      <div className="max-w-sm w-full bg-[#546b6f] hover:scale-110 border border-gray-500 rounded-xl shadow-md shadow-[#679ea8] min-w-[300px] flex flex-row flex-1 flex-wrap justify-center h-12">
+        <a href="/SkillsAndTools" className="flex justify-center items-center  text-2xl font-bold text-[#7cccd8] hover:text-[#67d4b0] ">
+          <FileCog /> &nbsp; Tools and Skills
+        </a>
+      </div>
+      <div className="max-w-sm w-full bg-[#546b6f] hover:scale-110  border border-gray-500 rounded-xl shadow-md shadow-[#679ea8] min-w-[300px] flex flex-row flex-1 flex-wrap justify-center h-12">
+        <a href="/Projects" className="flex justify-center items-center  text-2xl font-bold text-[#7cccd8] hover:text-[#67d4b0] ">
+          <Presentation />
+          &nbsp; Projects
+        </a>
+      </div>
+    </section>
+  );
 }
 
-export default Cards
+export default Cards;

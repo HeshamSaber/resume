@@ -1,0 +1,188 @@
+[
+  {
+    "id": 1,
+    "companyName": "FemtoFPA",
+    "title": "Senior SDET Enginer",
+    "startDate": "Nov 2022",
+    "endDate": "present",
+    "FOW": "Financial Planning and Analysis (FP&A)",
+    "projects": [
+      {
+        "projectName": "Femto FP&A",
+        "projectLink": "https://femtofpa.com",
+        "projectDesc": "automated FP&A tool"
+      },
+      {
+        "projectName": "Xpovi",
+        "projectLink": "https://www.xpovi.com/",
+        "projectDesc": "Business Planning tool helps estimate companies’ growth according to demographic, and analysis data in Egypt"
+      }
+    ],
+    "logo": "./Static/companylogos/FemtoLogo.svg",
+    "duties": [
+      "Build development process using Scrum Methodology to reduce development issues by 40%",
+      "Write test scenario and cases for each story reducing testing execution time by 25%",
+      "Perform manual test case execution to ensure raising product quality by 85%",
+      "Build automation framework using cypress and playwright covering 70% of the system",
+      "Build CI/CD pipeline to reduce regression time from 2 days to 35 minutes",
+      "Write sprint documents including test results and Demos"
+    ],
+    "tools": ["Jira", "Confluence", "cypress", "playwright", "Bitbucket", "GitHub", "Bitbucket pipeline", "GitHub Actions", "Postman"]
+  },
+  {
+    "id": 2,
+    "companyName": "Sure Global Technology (SGT)",
+    "title": "Senior SDET Enginer",
+    "startDate": "Feb 2022",
+    "endDate": "Oct 2022",
+    "FOW": "Government Digitalization",
+    "projects": [
+      {
+        "projectName": "Mjls Tech",
+        "projectLink": "https://mjls.tech/",
+        "projectDesc": "Digitalization Platform for meetings attendance, minutes recording, attendees’ signatures collecting, and hierarchical decision approval"
+      }
+    ],
+    "logo": "./Static/companylogos/SGT-logo.png",
+    "duties": [
+      "Built Scrum process helping the development team to deliver more stories per sprint by 20%",
+      "Wrote test scenario and cases for each story reducing testing execution time by 30%",
+      "Executed manual testing to ensure raising product quality by 70%",
+      "Built automation framework using cypress covering 35% of the codebase",
+      "Led a team of 2 QA engineers (a senior and a junior engineers)",
+      "Executed demos for potential users and training for current users"
+    ],
+    "tools": ["Jira", "Confluence", "cypress", "Bitbucket", "Postman", "Zephyr"]
+  },
+  {
+    "id": 3,
+    "companyName": "Parent",
+    "title": "Senior SDET Enginer",
+    "startDate": "Jan 2021",
+    "endDate": "Jan 2022",
+    "FOW": "School Management",
+    "projects": [
+      {
+        "projectName": "Parent APS",
+        "projectLink": "https://www.parent.app/",
+        "projectDesc": "School Management System to control and report students’ and teachers’ activities and help parents to know more about the children’s school day activities"
+      }
+    ],
+    "logo": "./Static/companylogos/parent-Logo.svg",
+    "duties": [
+      "Helped in setting up Scrum process to manage workload with dev and testing teams",
+      "Wrote test scenario and cases to insure insights across testing team",
+      "Executed test cases across multiple platforms (Web – Mobile)",
+      "Contributed to automation framework using Java, Selenium and TestNG covering 65% of codebase",
+      "Wrote sprint documentations and automation documentations "
+    ],
+    "tools": ["Jira", "Confluence", "Java", "Selenium", "Bitbucket", "Postman", "X-Ray", "SoapUI"]
+  },
+  {
+    "id": 4,
+    "companyName": "Business Boomers",
+    "title": "QA team Lead",
+    "startDate": "Oct 2019",
+    "endDate": "Dec 2020",
+    "FOW": "E-Commerce SAAS & Ticketing System",
+    "projects": [
+      {
+        "projectName": "ZVendo",
+        "projectLink": "https://zvendo.com/",
+        "projectDesc": "Marketplaces Platform to create a marketplace (store), and provide additional services (e.g., payment and shipping)"
+      },
+      {
+        "projectName": "El-Sawy Culture Wheel",
+        "projectLink": "https://www.culturewheel.com/en",
+        "projectDesc": "Ticketing System for El-Sawy Culture Wheel for hall and seat selection, tickets reservation, and payment gateways"
+      },
+      {
+        "projectName": "EgyBus",
+        "projectLink": "https://egyptbus.com/",
+        "projectDesc": "Ticketing System for EgyBus for bus and seat selection, tickets reservation, and payment gateways"
+      }
+    ],
+    "logo": "./Static/companylogos/BBN-Logo.png",
+    "duties": [
+      "Set up Scrum process to manage workload with dev and testing teams",
+      "Designed and implemented comprehensive test plans and strategies to deliver high-quality product releases",
+      "Became a part of company strategic board to build action plans for company vision",
+      "Managed QA team (two seniors and a junior) to improve skills and tools experience including Automation",
+      "Built automation frameworks using Katalon Studio covering 85% of El-Sawy and EgyBus projects"
+    ],
+    "tools": ["Azure DevOps", "Selenium", "Java TestNG", "Github", "Postman", "Katalon Studio", "MySQL Workbench"]
+  },
+  {
+    "id": 5,
+    "companyName": "Business Boomers",
+    "title": "Senior QA Engineer ",
+    "startDate": "Dec 2018",
+    "endDate": "Sep 2019",
+    "FOW": "E-Commerce SAAS & Ticketing System",
+    "projects": [
+      {
+        "projectName": "ZVendo",
+        "projectLink": "https://zvendo.com/",
+        "projectDesc": "Marketplaces Platform to create a marketplace (store), and provide additional services (e.g., payment and shipping)"
+      },
+      {
+        "projectName": "El-Sawy Culture Wheel",
+        "projectLink": "https://www.culturewheel.com/en",
+        "projectDesc": "Ticketing System for El-Sawy Culture Wheel for hall and seat selection, tickets reservation, and payment gateways"
+      },
+      {
+        "projectName": "EgyBus",
+        "projectLink": "https://egyptbus.com/",
+        "projectDesc": "Ticketing System for EgyBus for bus and seat selection, tickets reservation, and payment gateways"
+      }
+    ],
+    "logo": "./Static/companylogos/BBN-Logo.png",
+    "duties": [
+      "Built test scenarios and test cases library for waterfall processed product",
+      "Collaborated with teammates in manual testing across multiple platforms (Web – Mobile)",
+      "Contributed to automation framework using Java, Selenium and TestNG covering 50% of Zvendo project",
+      "Perform performance testing using K6"
+    ],
+    "tools": ["Azure DevOps", "Selenium", "Java TestNG", "Github", "Postman", "Katalon Studio", "k6","MySQL Workbench"]
+  },
+  {
+    "id": 6,
+    "companyName": "Neom Tech ",
+    "title": "Senior SDET Enginer",
+    "startDate": "May 2018",
+    "endDate": "Nov 2018",
+    "FOW": "Insurance",
+    "projects": [
+      {
+        "projectName": "Bcare",
+        "projectLink": "https://bcare.com.sa/",
+        "projectDesc": "Online Portal for Bcare for insurance, and insurance aggregation across multiple insurance companies in Saudi Arabia"
+      }
+    ],
+    "logo": "./Static/companylogos/Bcare-logo.svg",
+    "duties": [
+      "Built test scenarios and test cases library for waterfall processed product ",
+      "Collaborate with teammates in manual testing across multiple platforms (Web – Mobile)",
+      "Covering 30% of codebase with automation using Java, Selenium and TestNG"      
+    ],
+    "tools": ["Azure DevOps", "Selenium", "Java TestNG", "Github", "Slack", "Postman", "Chrome Devtools", "Testrail", "Katalon Studio"]
+  },
+  {
+    "id": 7,
+    "companyName": "Apps Square",
+    "title": "QA Enginer",
+    "startDate": "Nov 2017",
+    "endDate": "April 2018",
+    "FOW": "Software House",
+    "projects": [],
+    "logo": "./Static/companylogos/apps-square-logo.svg",
+    "duties": [
+      "Built test scenarios and test cases library",
+      "Executed manual testing across multiple platforms (Web – Mobile)",
+      "Built automation framework using Katalon Studio",
+      "Trained internship fellows for 6 weeks"
+      
+    ],
+    "tools": ["Trello", "Xmind", "Katalon Studio", "MySQL Workbench", "postman"]
+  }
+]

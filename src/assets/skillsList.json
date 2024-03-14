@@ -1,0 +1,12 @@
+{
+  "tools": {
+    "Programming Languages": ["Java", "JavaScript", "Groovy"],
+    "Automation Tools": ["Selenium WebDriver", "Cypress", "PlayWright", "Appium", "Robot Framework"],
+    "Version Control": ["Github", "BitBucket"],
+    "Other Tools": ["Azure DevOps","JIRA", "Confluence", "Postman", "BitBucket CI", "Cucumber"]
+  },
+  "skills": {
+    "Testing Skills": ["Test Planning", "Test Automation", "Regression Testing", "API Testing", "Performance Testing"],
+    "Coding Skills": ["Object-Oriented Programming", "Test Scripting", "Code Debugging", "Test Framework Design", "Continuous Integration/Continuous Deployment (CI/CD)"]
+  }
+}

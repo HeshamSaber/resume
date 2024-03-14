@@ -1,30 +1,19 @@
 import { useLocation } from "react-router-dom";
 import Home from "../dataSections/Home";
 import Experience from "../dataSections/Experience";
+import Skills from "../dataSections/Skills";
 
 function Content() {
   const projectPath = useLocation();
   switch (projectPath.pathname) {
     case "/":
-      return (
-        <section className="w-10/12 justify-center items-center self-center">
-          <Home />
-        </section>
-      );
+      return <Home />;
     case "/experience":
-      return (
-        <section>
-          <Experience />{" "}
-        </section>
-      );
+      return <Experience />;
+    case "/skills":
+      return <Skills />;
     default:
-      return (
-        <section>
-          <Home />
-        </section>
-      );
+      return <Home />;
   }
-
-  return <p>Content</p>;
 }
 export default Content;
